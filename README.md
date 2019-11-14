@@ -15,3 +15,5 @@ This Repo helps in Learn Python
 		*Classes and Objects
 		*Dictionaries
 		*Modules and Packages
+
+Python library : https://docs.python.org/3/library/
