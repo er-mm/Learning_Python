@@ -21,6 +21,7 @@ Python library : https://docs.python.org/3/library/
 	**Advance : 
 	    *NumpArrays
 	    *Pandas
+	    *Generators
 
 
 
