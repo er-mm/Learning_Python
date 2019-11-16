@@ -5,7 +5,7 @@
 sentence = "the quick brown fox jumps over the lazy dog"
 words_list = sentence.split()
 print(words_list)
-print('length of wordlist array = %d.' % len(words_list))
+print('length of word list array = %d.' % len(words_list))
 lenOfList = []
 for word in words_list:
     if word != 'the':
