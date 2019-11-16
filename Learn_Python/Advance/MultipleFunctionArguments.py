@@ -29,6 +29,7 @@ def bar(first, second, third, **action):
     if action.get('number') == "first":
         return first
 
+
 result = bar(1, 2, 3, add="sum", number="first")
 print('result is = %d.' % result)
 
@@ -44,17 +45,22 @@ print('result is = %d.' % result)
 # def bar(a, b, c):
 #     pass
 print("=======Exercise======")
+
+
 def foo1(a, b, c, *extraArgs):
     return len(extraArgs)
+
+
 def bar1(a, b, c, **action):
-    return action['magicnumber'] == 7 # action.get('magicnumber) OR action['magicnumber']
+    return action['magicnumber'] == 7  # action.get('magicnumber) OR action['magicnumber']
+
 
 # test code
-if foo1(1,2,3,4) == 1:
+if foo1(1, 2, 3, 4) == 1:
     print("Good.")
-if foo1(1,2,3,4,5) == 2:
+if foo1(1, 2, 3, 4, 5) == 2:
     print("Better.")
-if bar1(1,2,3,magicnumber = 6) == False:
+if not bar1(1, 2, 3, magicnumber=6):
     print("Great.")
-if bar1(1,2,3,magicnumber = 7) == True:
+if bar1(1, 2, 3, magicnumber=7):
     print("Awesome!")
