@@ -22,6 +22,7 @@ Python library : https://docs.python.org/3/library/
 	    *NumpArrays
 	    *Pandas
 	    *Generators
+	    *List Comprehensions
 
 
 
